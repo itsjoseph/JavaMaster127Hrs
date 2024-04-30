@@ -7,6 +7,9 @@ public class Automovil {
     private int capacidadEstanque = 40;
     private int id;
     private double cilindrada;
+    private Persona conductor;
+    private Rueda[] ruedas;
+    private Motor motor;
 
     private static int ultimoId;
 
